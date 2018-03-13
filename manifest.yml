@@ -1,0 +1,15 @@
+---
+declared-services:
+  Conversation-Telegram:
+    label: conversation
+    plan: free
+applications:
+- name: WatsonTelegram
+  command: npm start
+  path: .
+  memory: 256M
+  instances: 1
+  services:
+  - Conversation-Telegram
+  env:
+    NPM_CONFIG_PRODUCTION: false

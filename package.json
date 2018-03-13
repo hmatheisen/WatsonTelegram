@@ -1,0 +1,17 @@
+{
+  "name": "watsontelegram",
+  "version": "1.0.0",
+  "description": "A Telegram bot using IBM Watson Conversation",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "henry matheisen",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^5.0.1",
+    "node-telegram-bot-api": "^0.30.0",
+    "watson-developer-cloud": "^3.0.7"
+  }
+}
