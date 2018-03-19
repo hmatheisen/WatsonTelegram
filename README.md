@@ -54,7 +54,3 @@ Save the token it gives you, you will need it later
     ```
 
 You can now interact with your Watson Conversation service via Telegram !!
-
-
-*I am having some trouple deploying the app to IBM Cloud, for some reason it crashes constantly. This may be linked to the node-telegram-bot-api. \
-I am currently working on a fix*
