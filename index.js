@@ -23,7 +23,7 @@ bot.on('message', (msg) => {
 
         const payload = {
             workspace_id: workspace_id,
-            input: msg || {}
+            input: {'text': msg.text} || {}
         }
     
         conversation.message(payload, (err, response) => {
